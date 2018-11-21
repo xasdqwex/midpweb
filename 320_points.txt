@@ -1,0 +1,15 @@
++50 tugas selesai
++10 untuk setiap informasi dan tampil dengan baik
++25 now playing atau upcoming
++25 trailer
+
++240 dengan 24 selector
+
+-10 halaman index bagian tengah
+-20 halaman back dari next tidak bekerja
+
+350 - 30 
+
+total 320
+
+

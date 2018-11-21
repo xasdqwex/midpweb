@@ -1,0 +1,141 @@
+body{
+  padding-top: 0rem;
+  font-family: sans-serif;
+
+}
+
+/* now playing card */
+
+
+.img {
+    width: 130px;
+
+    height: 170px;
+    border-bottom: 2px solid orange;
+}
+
+
+.carousel{
+  margin-bottom: 0rem;
+}
+
+
+
+.video-tr{
+  padding-left: 1rem;
+}
+
+.card-text{
+  text-align: justify;
+  font-family: 'Sedgwick Ave', cursive;
+  color:white;
+}
+
+.text-white{
+  font-size: 2rem;
+}
+
+.fotodetail{
+  height: 800px;
+  width : 400px;
+}
+
+.poster{
+  width: 240px;
+  height: 450px;
+}
+
+.card-index{
+  text-align: center;
+  margin-bottom: .75rem;
+}
+
+.sizegambar{
+  width: 100%;
+border-top-left-radius: calc(.25rem - 1px);
+border-top-right-radius: calc(.25rem - 1px);
+width:250px;
+}
+
+.bg-warning {
+    background-color: #335300 !important;
+}
+.warnabekgrun {
+    background-color: #fff;
+}
+
+.ukuran{
+  font-size:180%;
+}
+
+
+.link:active{
+  color: brown  ;
+}
+.link{
+  color:  brown;
+}
+.link:hover{
+  color: brown;
+}
+
+.bgweb{
+background-color: white;
+}
+
+.aboutkanan{
+  text-align:center;
+  position: relative;
+  top: 0px;
+  left: 1700px;
+
+}
+
+
+
+
+.aturfoto{
+  width: 300px;
+  height: 250px;
+}
+
+.textrobot{
+  font-family: 'Ranga', cursive;
+  text-align: justify;
+}
+
+.kotakhitam {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 30px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card{
+   background-color:  #335300;
+}
+
+.tulisanwarna{
+  color:black;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #335300;
+   color: white;
+   text-align: center;
+}
+
+.tulisangede{
+font-family: 'Black Han Sans', sans-serif;
+}

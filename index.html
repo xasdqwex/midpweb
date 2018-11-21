@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/carousel.css">
+
+
+    <link rel="stylesheet" href="css/styleku.css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Ranga|Sedgwick+Ave" rel="stylesheet">
+    <title>Hello, world!</title>
+  </head>
+
+
+
+  <body class="bgweb">
+    <div class="warnabekgrun">
+      <a class="link"href="index.html"><span class="ukuran p-3 mb-2 tulisangede">BBMovies</span>
+      <a href="index.html">
+      <img src=img/bbm.png alt=""height="70px" align="" border="30">
+    </a>
+    <a class="aboutkanan link" href="about.html"><span class="tulisangede">About</span></a>
+      <!-- <div class="aboutkanan"
+      <a class="link" href="about.html">About</a>
+    </div> -->
+    </div>
+
+    <nav class="navbar navbar sticky-top navbar-expand-lg navbar-dark bg-warning">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link " href="index.html"><b>Home |<span class="sr-only">(current)</b></span></a>
+        <a class="nav-item nav-link" href="nowplaying.html?hal=1"><b>Now Playing |</b></a>
+        <a class="nav-item nav-link" href="upcoming.html?hal=1"><b>Up Coming |</b></a>
+        <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+      </div>
+      </div>
+
+  </nav>
+
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" id="movieslide">
+      <div class="carousel-item active" id=movie1>
+
+      </div>
+      <div class="carousel-item " id=movie2>
+
+      </div>
+      <div class="carousel-item " id=movie3>
+
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<nav class="navbar navbar-dark bg-warning">
+<h3><a class="link" href="nowplaying.html">Now Playing</a></h3>
+</nav>
+<main role = "main" >
+<div class="container-dark">
+
+<div id="np" class = "row">
+</div>
+</div>
+
+
+</div>
+</main>
+
+<nav class="navbar navbar-dark bg-warning">
+<h3><a class="link" href="upcoming.html">Upcoming</a></h3>
+</nav>
+<main role = "main" >
+<div class="container-dark">
+
+<div id="uc" class = "row">
+</div>
+</div>
+</div>
+</main>
+
+
+<div class="footer">
+ <p class="tulisangede">© 2018 Copyright: Babar Movies</p>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jsku.js"></script>
+        <script type="text/javascript">
+          movieslide();
+          index();
+        </script>
+  </body>
+</html>
